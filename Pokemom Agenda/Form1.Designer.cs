@@ -32,14 +32,15 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtNome = new System.Windows.Forms.TextBox();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.btnSalvar = new System.Windows.Forms.Button();
-            this.btnLimpar = new System.Windows.Forms.Button();
-            this.numNivel = new System.Windows.Forms.NumericUpDown();
             this.cbTipo = new System.Windows.Forms.ComboBox();
+            this.numNivel = new System.Windows.Forms.NumericUpDown();
+            this.btnLimpar = new System.Windows.Forms.Button();
+            this.btnSalvar = new System.Windows.Forms.Button();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.txtNome = new System.Windows.Forms.TextBox();
+            this.btnAjudaClick = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numNivel)).BeginInit();
@@ -83,82 +84,6 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Cadastro Pokémon";
             // 
-            // txtNome
-            // 
-            this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNome.Location = new System.Drawing.Point(104, 22);
-            this.txtNome.Name = "txtNome";
-            this.txtNome.Size = new System.Drawing.Size(190, 31);
-            this.txtNome.TabIndex = 0;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(4, 25);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(74, 25);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Nome:";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(4, 72);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(60, 25);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Tipo:";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(4, 116);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(66, 25);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Nivel:";
-            // 
-            // btnSalvar
-            // 
-            this.btnSalvar.Location = new System.Drawing.Point(0, 162);
-            this.btnSalvar.Name = "btnSalvar";
-            this.btnSalvar.Size = new System.Drawing.Size(145, 32);
-            this.btnSalvar.TabIndex = 6;
-            this.btnSalvar.Text = "Salvar";
-            this.btnSalvar.UseVisualStyleBackColor = true;
-            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
-            // 
-            // btnLimpar
-            // 
-            this.btnLimpar.Location = new System.Drawing.Point(149, 162);
-            this.btnLimpar.Name = "btnLimpar";
-            this.btnLimpar.Size = new System.Drawing.Size(145, 32);
-            this.btnLimpar.TabIndex = 7;
-            this.btnLimpar.Text = "Limpar";
-            this.btnLimpar.UseVisualStyleBackColor = true;
-            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
-            // 
-            // numNivel
-            // 
-            this.numNivel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.numNivel.Location = new System.Drawing.Point(104, 116);
-            this.numNivel.Minimum = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            this.numNivel.Name = "numNivel";
-            this.numNivel.Size = new System.Drawing.Size(190, 31);
-            this.numNivel.TabIndex = 8;
-            this.numNivel.Value = new decimal(new int[] {
-            1,
-            0,
-            0,
-            0});
-            // 
             // cbTipo
             // 
             this.cbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
@@ -199,11 +124,97 @@
             this.cbTipo.Size = new System.Drawing.Size(190, 33);
             this.cbTipo.TabIndex = 9;
             // 
+            // numNivel
+            // 
+            this.numNivel.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.numNivel.Location = new System.Drawing.Point(104, 116);
+            this.numNivel.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            this.numNivel.Name = "numNivel";
+            this.numNivel.Size = new System.Drawing.Size(190, 31);
+            this.numNivel.TabIndex = 8;
+            this.numNivel.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
+            // 
+            // btnLimpar
+            // 
+            this.btnLimpar.Location = new System.Drawing.Point(149, 162);
+            this.btnLimpar.Name = "btnLimpar";
+            this.btnLimpar.Size = new System.Drawing.Size(145, 32);
+            this.btnLimpar.TabIndex = 7;
+            this.btnLimpar.Text = "Limpar";
+            this.btnLimpar.UseVisualStyleBackColor = true;
+            this.btnLimpar.Click += new System.EventHandler(this.btnLimpar_Click);
+            // 
+            // btnSalvar
+            // 
+            this.btnSalvar.Location = new System.Drawing.Point(0, 162);
+            this.btnSalvar.Name = "btnSalvar";
+            this.btnSalvar.Size = new System.Drawing.Size(145, 32);
+            this.btnSalvar.TabIndex = 6;
+            this.btnSalvar.Text = "Salvar";
+            this.btnSalvar.UseVisualStyleBackColor = true;
+            this.btnSalvar.Click += new System.EventHandler(this.btnSalvar_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.Location = new System.Drawing.Point(4, 116);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(66, 25);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Nivel:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.Location = new System.Drawing.Point(4, 72);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(60, 25);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Tipo:";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.Location = new System.Drawing.Point(4, 25);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(74, 25);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Nome:";
+            // 
+            // txtNome
+            // 
+            this.txtNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNome.Location = new System.Drawing.Point(104, 22);
+            this.txtNome.Name = "txtNome";
+            this.txtNome.Size = new System.Drawing.Size(190, 31);
+            this.txtNome.TabIndex = 0;
+            // 
+            // btnAjudaClick
+            // 
+            this.btnAjudaClick.Location = new System.Drawing.Point(39, 415);
+            this.btnAjudaClick.Name = "btnAjudaClick";
+            this.btnAjudaClick.Size = new System.Drawing.Size(75, 23);
+            this.btnAjudaClick.TabIndex = 3;
+            this.btnAjudaClick.Text = "button1";
+            this.btnAjudaClick.UseVisualStyleBackColor = true;
+            // 
             // FmCadastroPokemon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnAjudaClick);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
@@ -232,6 +243,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.NumericUpDown numNivel;
         private System.Windows.Forms.ComboBox cbTipo;
+        private System.Windows.Forms.Button btnAjudaClick;
     }
 }
 
