@@ -1,17 +1,13 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\erica.mfsilva\\source\\repos\\Pokemom Agenda\\",
+  "WorkspaceRootPath": "C:\\Users\\henderson.sfroder\\Documents\\GitHub\\Pokemom-Agenda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|c:\\users\\erica.mfsilva\\source\\repos\\pokemom agenda\\pokemom agenda\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|solutionrelative:pokemom agenda\\pokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|C:\\Users\\erica.mfsilva\\source\\repos\\Pokemom Agenda\\pokemom agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|C:\\Users\\henderson.sfroder\\Documents\\GitHub\\Pokemom-Agenda\\pokemom agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|solutionrelative:pokemom agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|C:\\Users\\erica.mfsilva\\source\\repos\\Pokemom Agenda\\pokemom agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|c:\\users\\henderson.sfroder\\documents\\github\\pokemom-agenda\\pokemom agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|solutionrelative:pokemom agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
@@ -22,42 +18,33 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\erica.mfsilva\\source\\repos\\Pokemom Agenda\\Pokemom Agenda\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\henderson.sfroder\\Documents\\GitHub\\Pokemom-Agenda\\Pokemom Agenda\\Form1.cs",
               "RelativeDocumentMoniker": "Pokemom Agenda\\Form1.cs",
-              "ToolTip": "C:\\Users\\erica.mfsilva\\source\\repos\\Pokemom Agenda\\Pokemom Agenda\\Form1.cs [Design]*",
-              "RelativeToolTip": "Pokemom Agenda\\Form1.cs [Design]*",
+              "ToolTip": "C:\\Users\\henderson.sfroder\\Documents\\GitHub\\Pokemom-Agenda\\Pokemom Agenda\\Form1.cs [Design]",
+              "RelativeToolTip": "Pokemom Agenda\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-18T22:20:43.433Z",
+              "WhenOpened": "2026-03-28T00:59:27.507Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Pokemon.cs",
-              "DocumentMoniker": "C:\\Users\\erica.mfsilva\\source\\repos\\Pokemom Agenda\\Pokemom Agenda\\Pokemon.cs",
-              "RelativeDocumentMoniker": "Pokemom Agenda\\Pokemon.cs",
-              "ToolTip": "C:\\Users\\erica.mfsilva\\source\\repos\\Pokemom Agenda\\Pokemom Agenda\\Pokemon.cs*",
-              "RelativeToolTip": "Pokemom Agenda\\Pokemon.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAA/AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-19T23:30:09.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\erica.mfsilva\\source\\repos\\Pokemom Agenda\\Pokemom Agenda\\Form1.cs",
+              "DocumentMoniker": "C:\\Users\\henderson.sfroder\\Documents\\GitHub\\Pokemom-Agenda\\Pokemom Agenda\\Form1.cs",
               "RelativeDocumentMoniker": "Pokemom Agenda\\Form1.cs",
-              "ToolTip": "C:\\Users\\erica.mfsilva\\source\\repos\\Pokemom Agenda\\Pokemom Agenda\\Form1.cs*",
-              "RelativeToolTip": "Pokemom Agenda\\Form1.cs*",
-              "ViewState": "AgIAABMAAAAAAAAAAAAgwC0AAAAfAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\henderson.sfroder\\Documents\\GitHub\\Pokemom-Agenda\\Pokemom Agenda\\Form1.cs",
+              "RelativeToolTip": "Pokemom Agenda\\Form1.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwC0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-18T23:05:09.681Z",
               "EditorCaption": ""

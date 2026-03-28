@@ -10,14 +10,8 @@ using System.Windows.Forms;
 
 namespace Pokemom_Agenda
 {
-    /// <summary>
-    /// Formulário responsável pelo cadastro de Pokémons na aplicação Pokemom Agenda.
-    /// </summary>
     public partial class FmCadastroPokemon : Form
     {
-        /// <summary>
-        /// Inicializa uma nova instância do formulário de cadastro de Pokémon.
-        /// </summary>
         public FmCadastroPokemon()
         {
             InitializeComponent();
@@ -25,15 +19,14 @@ namespace Pokemom_Agenda
         // criação da função (limpar) com retorno nome.
         // disponibilidade retorno nome ( funções) a funão serve 
         // para reaproveitar códigos, definindo uma função eu posso reutilizar o código
-        /// <summary>
-        /// Limpa os campos do formulário, redefinindo para os valores padrão.
-        /// </summary>
-        private void fnLimpar()
+        private void  fnLimpar()
         {
             txtNome.Clear();
             cbTipo.SelectedIndex = 1;
             numNivel.Value = 1;
+
             txtNome.Focus();
+          
         }
         /* objetivo da aula: aprnder a criar e utilizar objetos
          * mini game pokemon
@@ -42,30 +35,25 @@ namespace Pokemom_Agenda
          * 3- batalhar com esse pokemon de forma randoica
          * sistema vai sortear 1 a 6 pokemon (somente os 151 primeiros)
          */
-        /// <summary>
-        /// Evento acionado ao clicar no botão Salvar. Realiza o cadastro do Pokémon com os dados informados.
-        /// </summary>
-        /// <param name="sender">Objeto que disparou o evento.</param>
-        /// <param name="e">Argumentos do evento.</param>
         private void btnSalvar_Click(object sender, EventArgs e)
         {
             string nomePokemon = txtNome.Text; // textBox
             string tipoPokemon = cbTipo.Text; // comboBox
-            int nivelPokemon = (int)numNivel.Value; // numericUpDown
+            int  nivelPokemon = (int) numNivel.Value; // numericUpDown
 
             Pokemon poke = new Pokemon(nomePokemon, tipoPokemon, nivelPokemon);
+
             poke.fnDescricao();
+
+            // MessageBox.Show($"o Pokémon {nomePokemon} do tipo {tipoPokemon} " +
+            // $"foi cadastrado com o nivel {nivelPokemon}");
             fnLimpar();
         }
 
-        /// <summary>
-        /// Evento acionado ao clicar no botão Limpar. Limpa os campos do formulário.
-        /// </summary>
-        /// <param name="sender">Objeto que disparou o evento.</param>
-        /// <param name="e">Argumentos do evento.</param>
         private void btnLimpar_Click(object sender, EventArgs e)
         {
             fnLimpar();
+
         }
     }
 }
