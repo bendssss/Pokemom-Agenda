@@ -1,24 +1,25 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 using System.Windows.Forms;
 
 namespace Pokemom_Agenda
 {
-    internal class Pokemon
+    public class Pokemon
     {
         // nome do pokemon
         // tipo do pokemon
         // nivel do pokemon
         // vida do pokemon
         // dano do pokemon
-        string Nome;
-        string Tipo;
-        int Nivel;
-        int Vida;
-        int Dano;
+        public string Nome { get; set; }
+
+        public string Tipo { get; set; }
+
+        public int Nivel { get; set; }
+
+        public int Vida { get; set; }
+
+        public int Dano { get; set; }
+
 
         // Criação da função de inicialização padrão do meu objeto
         public Pokemon(string nomePokemon, string tipoPokemon, int nivelPokemon)
@@ -39,5 +40,5 @@ namespace Pokemom_Agenda
             MessageBox.Show($"pokemon: {Nome}, Tipo: {Tipo}," +
                 $"Nivel: {Nivel}, Vida: {Vida}, Dano: {Dano}");
         }
-}
     }
+}

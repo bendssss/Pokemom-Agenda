@@ -18,3 +18,4 @@ C:\Users\henderson.sfroder\Documents\GitHub\Pokemom-Agenda\Pokemom Agenda\obj\De
 C:\Users\henderson.sfroder\Documents\GitHub\Pokemom-Agenda\Pokemom Agenda\obj\Debug\Pokemom Agenda.csproj.CoreCompileInputs.cache
 C:\Users\henderson.sfroder\Documents\GitHub\Pokemom-Agenda\Pokemom Agenda\obj\Debug\Pokemom Agenda.exe
 C:\Users\henderson.sfroder\Documents\GitHub\Pokemom-Agenda\Pokemom Agenda\obj\Debug\Pokemom Agenda.pdb
+C:\Users\henderson.sfroder\Documents\GitHub\Pokemom-Agenda\Pokemom Agenda\obj\Debug\Pokemom_Agenda.FormdetalhesPokemon.resources

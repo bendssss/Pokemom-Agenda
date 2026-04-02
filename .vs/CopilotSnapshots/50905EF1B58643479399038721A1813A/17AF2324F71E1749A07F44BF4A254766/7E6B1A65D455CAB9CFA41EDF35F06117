@@ -13,18 +13,18 @@ namespace Pokemom_Agenda
     /// <summary>
     /// Formulário responsável pelo cadastro de Pokémons na aplicação Pokemom Agenda.
     /// </summary>
-
+    
     public partial class FmCadastroPokemon : Form
     {
         BindingList<Pokemon> listaPokemon = new BindingList<Pokemon>();
-
         /// <summary>
         /// Inicializa uma nova instância do formulário de cadastro de Pokémon.
         /// </summary>
         public FmCadastroPokemon()
-        {   
+        {
+            InitializeComponent();
+            
                 InitializeComponent();
-
                 // DataGridView Visualizador organizado de dados
 
                 Pokemon p1 = new Pokemon("Pikachu", "Elétrico", 5);
@@ -66,7 +66,7 @@ namespace Pokemom_Agenda
         /// </summary>
         /// <param name="sender">Objeto que disparou o evento.</param>
         /// <param name="e">Argumentos do evento.</param>
-        public void btnSalvar_Click(object sender, EventArgs e)
+        private void btnSalvar_Click(object sender, EventArgs e)
         {
             string nomePokemon = txtNome.Text; // textBox
             string tipoPokemon = cbTipo.Text; // comboBox
