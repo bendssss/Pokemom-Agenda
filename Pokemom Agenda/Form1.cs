@@ -89,5 +89,20 @@ namespace Pokemom_Agenda
         {
             fnLimpar();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            //pegar a linhan selecionada !
+
+            //                   (ConverterParaTipo)pegar linha selecionada pelo DGV
+            Pokemon PokemonSelecionado = (Pokemon)dgvListaPokemon.CurrentRow.DataBoundItem;
+
+            //char = "a"
+            //string = "texto diverso"
+            //int = 57  
+            //double = 32.65    
+            //var
+            PokemonSelecionado .fnDescricao();
+        }
     }
 }
