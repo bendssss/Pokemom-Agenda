@@ -3,14 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\henderson.sfroder\\Documents\\GitHub\\Pokemom-Agenda\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|c:\\users\\henderson.sfroder\\documents\\github\\pokemom-agenda\\pokemom agenda\\formdetalhespokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|solutionrelative:pokemom agenda\\formdetalhespokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|c:\\users\\henderson.sfroder\\documents\\github\\pokemom-agenda\\pokemom agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|solutionrelative:pokemom agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|c:\\users\\henderson.sfroder\\documents\\github\\pokemom-agenda\\pokemom agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F1BD25CE-1478-408B-A97A-79051DE33382}|Pokemom Agenda\\Pokemom Agenda.csproj|solutionrelative:pokemom agenda\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
@@ -18,7 +10,7 @@
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
-      "VerticalTabListWidth": 100,
+      "VerticalTabListWidth": 172,
       "DocumentGroups": [
         {
           "DockedWidth": 200,
@@ -29,40 +21,19 @@
               "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\henderson.sfroder\\Documents\\GitHub\\Pokemom-Agenda\\Pokemom Agenda\\Form1.cs",
-              "RelativeDocumentMoniker": "Pokemom Agenda\\Form1.cs",
-              "ToolTip": "C:\\Users\\henderson.sfroder\\Documents\\GitHub\\Pokemom-Agenda\\Pokemom Agenda\\Form1.cs",
-              "RelativeToolTip": "Pokemom Agenda\\Form1.cs",
-              "ViewState": "AgIAAEkAAAAAAAAAAAAgwGgAAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T00:21:25.258Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "FormdetalhesPokemon.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\henderson.sfroder\\Documents\\GitHub\\Pokemom-Agenda\\Pokemom Agenda\\FormdetalhesPokemon.cs",
-              "RelativeDocumentMoniker": "Pokemom Agenda\\FormdetalhesPokemon.cs",
-              "ToolTip": "C:\\Users\\henderson.sfroder\\Documents\\GitHub\\Pokemom-Agenda\\Pokemom Agenda\\FormdetalhesPokemon.cs [Design]",
-              "RelativeToolTip": "Pokemom Agenda\\FormdetalhesPokemon.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T00:20:40.63Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\henderson.sfroder\\Documents\\GitHub\\Pokemom-Agenda\\Pokemom Agenda\\Form1.cs",
               "RelativeDocumentMoniker": "Pokemom Agenda\\Form1.cs",
               "ToolTip": "C:\\Users\\henderson.sfroder\\Documents\\GitHub\\Pokemom-Agenda\\Pokemom Agenda\\Form1.cs [Design]",
               "RelativeToolTip": "Pokemom Agenda\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-04-08T00:20:36.13Z",
+              "WhenOpened": "2026-04-11T00:52:34.322Z",
               "EditorCaption": " [Design]"
             }
           ]

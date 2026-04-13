@@ -42,6 +42,7 @@
             this.txtNome = new System.Windows.Forms.TextBox();
             this.dgvListaPokemon = new System.Windows.Forms.DataGridView();
             this.btnVisualializar = new System.Windows.Forms.Button();
+            this.bntTreinar = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.numNivel)).BeginInit();
@@ -209,6 +210,7 @@
             this.dgvListaPokemon.Name = "dgvListaPokemon";
             this.dgvListaPokemon.Size = new System.Drawing.Size(724, 265);
             this.dgvListaPokemon.TabIndex = 3;
+            this.dgvListaPokemon.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dgvListaPokemon_CellContentClick);
             // 
             // btnVisualializar
             // 
@@ -220,11 +222,22 @@
             this.btnVisualializar.UseVisualStyleBackColor = true;
             this.btnVisualializar.Click += new System.EventHandler(this.button1_Click);
             // 
+            // bntTreinar
+            // 
+            this.bntTreinar.Location = new System.Drawing.Point(531, 373);
+            this.bntTreinar.Name = "bntTreinar";
+            this.bntTreinar.Size = new System.Drawing.Size(203, 38);
+            this.bntTreinar.TabIndex = 5;
+            this.bntTreinar.Text = "Treinar";
+            this.bntTreinar.UseVisualStyleBackColor = true;
+            this.bntTreinar.Click += new System.EventHandler(this.bntTreinar_Click);
+            // 
             // FmCadastroPokemon
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1071, 450);
+            this.ClientSize = new System.Drawing.Size(1050, 450);
+            this.Controls.Add(this.bntTreinar);
             this.Controls.Add(this.btnVisualializar);
             this.Controls.Add(this.dgvListaPokemon);
             this.Controls.Add(this.groupBox1);
@@ -258,6 +271,7 @@
         private System.Windows.Forms.ComboBox cbTipo;
         private System.Windows.Forms.DataGridView dgvListaPokemon;
         private System.Windows.Forms.Button btnVisualializar;
+        private System.Windows.Forms.Button bntTreinar;
     }
 }
 

@@ -22,25 +22,25 @@ namespace Pokemom_Agenda
         /// Inicializa uma nova instância do formulário de cadastro de Pokémon.
         /// </summary>
         public FmCadastroPokemon()
-        {   
-                InitializeComponent();
+        {
+            InitializeComponent();
 
-                // DataGridView Visualizador organizado de dados
+            // DataGridView Visualizador organizado de dados
 
-                Pokemon p1 = new Pokemon("Pikachu", "Elétrico", 5);
-                Pokemon p2 = new Pokemon("Charmander", "Fogo", 9);
-                Pokemon p3 = new Pokemon("Bulbasaur", "Grama", 15);
-                Pokemon p4 = new Pokemon("Squirtle", "Água", 29);
+            Pokemon p1 = new Pokemon("Pikachu", "Elétrico", 5);
+            Pokemon p2 = new Pokemon("Charmander", "Fogo", 9);
+            Pokemon p3 = new Pokemon("Bulbasaur", "Grama", 15);
+            Pokemon p4 = new Pokemon("Squirtle", "Água", 29);
 
-                listaPokemon.Add(p1);
-                listaPokemon.Add(p2);
-                listaPokemon.Add(p3);
-                listaPokemon.Add(p4);
+            listaPokemon.Add(p1);
+            listaPokemon.Add(p2);
+            listaPokemon.Add(p3);
+            listaPokemon.Add(p4);
 
-                dgvListaPokemon.DataSource = listaPokemon;
-            
+            dgvListaPokemon.DataSource = listaPokemon;
+
         }
-       
+
         // criação da função (limpar) com retorno nome.
         // disponibilidade retorno nome ( funções) a funão serve 
         // para reaproveitar códigos, definindo uma função eu posso reutilizar o código
@@ -94,15 +94,51 @@ namespace Pokemom_Agenda
         {
             //pegar a linhan selecionada !
 
-            //                   (ConverterParaTipo)pegar linha selecionada pelo DGV
-            Pokemon PokemonSelecionado = (Pokemon)dgvListaPokemon.CurrentRow.DataBoundItem;
+            if (dgvListaPokemon.CurrentRow != null)
+            {
+                //                        (ConverteParaOTipo)pegar linha selecionada do DGV
+                Pokemon PokemonSelecionado = (Pokemon)dgvListaPokemon.CurrentRow.DataBoundItem;
+                //char = "a"
+                //string = "texto diverso"
+                //int = 57
+                //double = 32.65
+                //var
 
-            //char = "a"
-            //string = "texto diverso"
-            //int = 57  
-            //double = 32.65    
-            //var
-            PokemonSelecionado .fnDescricao();
+                //PokemonSelecionado.fnDescricao();
+
+                FormDetalhesPokemon formD = new FormDetalhesPokemon();
+                formD.pokemonRecebido = PokemonSelecionado;
+
+                // ShowDialog() 'forço' usuario a focar na nova tela
+                // Show() usuario pode usar qualquer tela ao mesmo tempo
+                formD.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Selecione um dos Pokemon na lista");
+            }
+        }
+
+        private void dgvListaPokemon_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void bntTreinar_Click(object sender, EventArgs e)
+        {
+            // Verifica se há um Pokémon selecionado na lista
+             if (dgvListaPokemon.CurrentRow != null) 
+             {
+                 // Obtém o objeto Pokémon da linha selecionada
+                 Pokemon pokemonParaTreinar = (Pokemon)dgvListaPokemon.CurrentRow.DataBoundItem; 
+        
+                 // Executa o método de treinar e atualiza a interface
+                 pokemonParaTreinar.fnTreinar(); 
+                 dgvListaPokemon.Refresh(); 
+        
+                 MessageBox.Show($"o Pokemon {pokemonParaTreinar.Nome} subiu 1 nivel", "Alerta de treinamento");
+
+             }
         }
     }
 }
